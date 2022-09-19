@@ -30,6 +30,15 @@
 
 
 </head>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-VF3SS120CG"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-VF3SS120CG');
+</script>
 
 <body>
 
@@ -39,7 +48,7 @@
 
       <a href="index.html" class="logo d-flex align-items-center">
         <img src="{{asset('assets/img/logo.png')}}" alt="">
-        <span>Ubud Care </span>
+        <span>Ubud Care Clinic</span>
       </a>
 
       <nav id="navbar" class="navbar">
@@ -375,7 +384,7 @@ Medicine is both art and science. Ubud is one of Bali’s major arts and cultura
           <p>Check our gallery</p>
         </header>
 
-        <div class="row" data-aos="fade-up" data-aos-delay="100">
+        {{-- <div class="row" data-aos="fade-up" data-aos-delay="100">
           <div class="col-lg-12 d-flex justify-content-center">
             <ul id="portfolio-flters">
               <li data-filter="*" class="filter-active">All</li>
@@ -384,132 +393,219 @@ Medicine is both art and science. Ubud is one of Bali’s major arts and cultura
               <li data-filter=".filter-web">Web</li>
             </ul>
           </div>
-        </div>
+        </div> --}}
 
         <div class="row gy-4 portfolio-container" data-aos="fade-up" data-aos-delay="200">
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-clinic">
             <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/portfolio-1.jpg" class="img-fluid" alt="">
+              <img src="{{asset('assets/img/portfolio/portfolio-1.jpg')}}" class="img-fluid" alt="">
               {{-- <div class="portfolio-info">
-                
-                <div class="portfolio-links">
-                  <a href="assets/img/portfolio/portfolio-1.jpg" data-gallery="portfolioGallery" class="portfokio-lightbox" title="App 1"><i class="bi bi-plus"></i></a>
-                  <a href="portfolio-details.html" title="More Details"><i class="bi bi-link"></i></a>
-                </div>
-              </div> --}}
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-            <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/portfolio-2.jpg" class="img-fluid" alt="">
-              <div class="portfolio-info">
                 <h4>Web 3</h4>
                 <p>Web</p>
                 <div class="portfolio-links">
                   <a href="assets/img/portfolio/portfolio-2.jpg" data-gallery="portfolioGallery" class="portfokio-lightbox" title="Web 3"><i class="bi bi-plus"></i></a>
                   <a href="portfolio-details.html" title="More Details"><i class="bi bi-link"></i></a>
-                </div>
-              </div>
+                </div> 
+              </div>--}}
             </div>
           </div>
 
-          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+          <div class="col-lg-4 col-md-6 portfolio-item filter-clinic">
             <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/portfolio-3.jpg" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <h4>App 2</h4>
-                <p>App</p>
-                <div class="portfolio-links">
-                  <a href="assets/img/portfolio/portfolio-3.jpg" data-gallery="portfolioGallery" class="portfokio-lightbox" title="App 2"><i class="bi bi-plus"></i></a>
-                  <a href="portfolio-details.html" title="More Details"><i class="bi bi-link"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
-            <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/portfolio-4.jpg" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <h4>Card 2</h4>
-                <p>Card</p>
-                <div class="portfolio-links">
-                  <a href="assets/img/portfolio/portfolio-4.jpg" data-gallery="portfolioGallery" class="portfokio-lightbox" title="Card 2"><i class="bi bi-plus"></i></a>
-                  <a href="portfolio-details.html" title="More Details"><i class="bi bi-link"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-            <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/portfolio-5.jpg" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <h4>Web 2</h4>
-                <p>Web</p>
-                <div class="portfolio-links">
-                  <a href="assets/img/portfolio/portfolio-5.jpg" data-gallery="portfolioGallery" class="portfokio-lightbox" title="Web 2"><i class="bi bi-plus"></i></a>
-                  <a href="portfolio-details.html" title="More Details"><i class="bi bi-link"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-            <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/portfolio-6.jpg" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <h4>App 3</h4>
-                <p>App</p>
-                <div class="portfolio-links">
-                  <a href="assets/img/portfolio/portfolio-6.jpg" data-gallery="portfolioGallery" class="portfokio-lightbox" title="App 3"><i class="bi bi-plus"></i></a>
-                  <a href="portfolio-details.html" title="More Details"><i class="bi bi-link"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
-            <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/portfolio-7.jpg" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <h4>Card 1</h4>
-                <p>Card</p>
-                <div class="portfolio-links">
-                  <a href="assets/img/portfolio/portfolio-7.jpg" data-gallery="portfolioGallery" class="portfokio-lightbox" title="Card 1"><i class="bi bi-plus"></i></a>
-                  <a href="portfolio-details.html" title="More Details"><i class="bi bi-link"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
-            <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/portfolio-8.jpg" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <h4>Card 3</h4>
-                <p>Card</p>
-                <div class="portfolio-links">
-                  <a href="assets/img/portfolio/portfolio-8.jpg" data-gallery="portfolioGallery" class="portfokio-lightbox" title="Card 3"><i class="bi bi-plus"></i></a>
-                  <a href="portfolio-details.html" title="More Details"><i class="bi bi-link"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-            <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/portfolio-9.jpg" class="img-fluid" alt="">
-              <div class="portfolio-info">
+              <img src="{{asset('assets/img/portfolio/portfolio-2.jpg')}}" class="img-fluid" alt="">
+              {{-- <div class="portfolio-info">
                 <h4>Web 3</h4>
                 <p>Web</p>
                 <div class="portfolio-links">
-                  <a href="assets/img/portfolio/portfolio-9.jpg" data-gallery="portfolioGallery" class="portfokio-lightbox" title="Web 3"><i class="bi bi-plus"></i></a>
+                  <a href="assets/img/portfolio/portfolio-2.jpg" data-gallery="portfolioGallery" class="portfokio-lightbox" title="Web 3"><i class="bi bi-plus"></i></a>
                   <a href="portfolio-details.html" title="More Details"><i class="bi bi-link"></i></a>
-                </div>
-              </div>
+                </div> 
+              </div>--}}
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-clinic">
+            <div class="portfolio-wrap">
+              <img src="{{asset('assets/img/portfolio/portfolio-3.jpg')}}" class="img-fluid" alt="">
+              {{-- <div class="portfolio-info">
+                <h4>Web 3</h4>
+                <p>Web</p>
+                <div class="portfolio-links">
+                  <a href="assets/img/portfolio/portfolio-2.jpg" data-gallery="portfolioGallery" class="portfokio-lightbox" title="Web 3"><i class="bi bi-plus"></i></a>
+                  <a href="portfolio-details.html" title="More Details"><i class="bi bi-link"></i></a>
+                </div> 
+              </div>--}}
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-clinic">
+            <div class="portfolio-wrap">
+              <img src="{{asset('assets/img/portfolio/portfolio-4.jpg')}}" class="img-fluid" alt="">
+              {{-- <div class="portfolio-info">
+                <h4>Web 3</h4>
+                <p>Web</p>
+                <div class="portfolio-links">
+                  <a href="assets/img/portfolio/portfolio-2.jpg" data-gallery="portfolioGallery" class="portfokio-lightbox" title="Web 3"><i class="bi bi-plus"></i></a>
+                  <a href="portfolio-details.html" title="More Details"><i class="bi bi-link"></i></a>
+                </div> 
+              </div>--}}
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-clinic">
+            <div class="portfolio-wrap">
+              <img src="{{asset('assets/img/portfolio/portfolio-5.jpg')}}" class="img-fluid" alt="">
+              {{-- <div class="portfolio-info">
+                <h4>Web 3</h4>
+                <p>Web</p>
+                <div class="portfolio-links">
+                  <a href="assets/img/portfolio/portfolio-2.jpg" data-gallery="portfolioGallery" class="portfokio-lightbox" title="Web 3"><i class="bi bi-plus"></i></a>
+                  <a href="portfolio-details.html" title="More Details"><i class="bi bi-link"></i></a>
+                </div> 
+              </div>--}}
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-clinic">
+            <div class="portfolio-wrap">
+              <img src="{{asset('assets/img/portfolio/portfolio-6.jpg')}}" class="img-fluid" alt="">
+              {{-- <div class="portfolio-info">
+                <h4>Web 3</h4>
+                <p>Web</p>
+                <div class="portfolio-links">
+                  <a href="assets/img/portfolio/portfolio-2.jpg" data-gallery="portfolioGallery" class="portfokio-lightbox" title="Web 3"><i class="bi bi-plus"></i></a>
+                  <a href="portfolio-details.html" title="More Details"><i class="bi bi-link"></i></a>
+                </div> 
+              </div>--}}
+            </div>
+          </div>
+
+      
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-clinic">
+            <div class="portfolio-wrap">
+              <img src="{{asset('assets/img/portfolio/portfolio-13.jpg')}}" class="img-fluid" alt="">
+              {{-- <div class="portfolio-info">
+                <h4>Web 3</h4>
+                <p>Web</p>
+                <div class="portfolio-links">
+                  <a href="assets/img/portfolio/portfolio-2.jpg" data-gallery="portfolioGallery" class="portfokio-lightbox" title="Web 3"><i class="bi bi-plus"></i></a>
+                  <a href="portfolio-details.html" title="More Details"><i class="bi bi-link"></i></a>
+                </div> 
+              </div>--}}
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-clinic">
+            <div class="portfolio-wrap">
+              <img src="{{asset('assets/img/portfolio/portfolio-9.jpg')}}" class="img-fluid" alt="">
+              {{-- <div class="portfolio-info">
+                <h4>Web 3</h4>
+                <p>Web</p>
+                <div class="portfolio-links">
+                  <a href="assets/img/portfolio/portfolio-2.jpg" data-gallery="portfolioGallery" class="portfokio-lightbox" title="Web 3"><i class="bi bi-plus"></i></a>
+                  <a href="portfolio-details.html" title="More Details"><i class="bi bi-link"></i></a>
+                </div> 
+              </div>--}}
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-clinic">
+            <div class="portfolio-wrap">
+              <img src="{{asset('assets/img/portfolio/portfolio-10.jpg')}}" class="img-fluid" alt="">
+              {{-- <div class="portfolio-info">
+                <h4>Web 3</h4>
+                <p>Web</p>
+                <div class="portfolio-links">
+                  <a href="assets/img/portfolio/portfolio-2.jpg" data-gallery="portfolioGallery" class="portfokio-lightbox" title="Web 3"><i class="bi bi-plus"></i></a>
+                  <a href="portfolio-details.html" title="More Details"><i class="bi bi-link"></i></a>
+                </div> 
+              </div>--}}
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-clinic">
+            <div class="portfolio-wrap">
+              <img src="{{asset('assets/img/portfolio/portfolio-12.jpg')}}" class="img-fluid" alt="">
+              {{-- <div class="portfolio-info">
+                <h4>Web 3</h4>
+                <p>Web</p>
+                <div class="portfolio-links">
+                  <a href="assets/img/portfolio/portfolio-2.jpg" data-gallery="portfolioGallery" class="portfokio-lightbox" title="Web 3"><i class="bi bi-plus"></i></a>
+                  <a href="portfolio-details.html" title="More Details"><i class="bi bi-link"></i></a>
+                </div> 
+              </div>--}}
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-clinic">
+            <div class="portfolio-wrap">
+              <img src="{{asset('assets/img/portfolio/portfolio-14.jpg')}}" class="img-fluid" alt="">
+              {{-- <div class="portfolio-info">
+                <h4>Web 3</h4>
+                <p>Web</p>
+                <div class="portfolio-links">
+                  <a href="assets/img/portfolio/portfolio-2.jpg" data-gallery="portfolioGallery" class="portfokio-lightbox" title="Web 3"><i class="bi bi-plus"></i></a>
+                  <a href="portfolio-details.html" title="More Details"><i class="bi bi-link"></i></a>
+                </div> 
+              </div>--}}
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-clinic">
+            <div class="portfolio-wrap">
+              <img src="{{asset('assets/img/portfolio/portfolio-16.jpg')}}" class="img-fluid" alt="">
+              {{-- <div class="portfolio-info">
+                <h4>Web 3</h4>
+                <p>Web</p>
+                <div class="portfolio-links">
+                  <a href="assets/img/portfolio/portfolio-2.jpg" data-gallery="portfolioGallery" class="portfokio-lightbox" title="Web 3"><i class="bi bi-plus"></i></a>
+                  <a href="portfolio-details.html" title="More Details"><i class="bi bi-link"></i></a>
+                </div> 
+              </div>--}}
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-clinic">
+            <div class="portfolio-wrap">
+              <img src="{{asset('assets/img/portfolio/portfolio-17.jpeg')}}" class="img-fluid" alt="">
+              {{-- <div class="portfolio-info">
+                <h4>Web 3</h4>
+                <p>Web</p>
+                <div class="portfolio-links">
+                  <a href="assets/img/portfolio/portfolio-2.jpg" data-gallery="portfolioGallery" class="portfokio-lightbox" title="Web 3"><i class="bi bi-plus"></i></a>
+                  <a href="portfolio-details.html" title="More Details"><i class="bi bi-link"></i></a>
+                </div> 
+              </div>--}}
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-clinic">
+            <div class="portfolio-wrap">
+              <img src="{{asset('assets/img/portfolio/portfolio-18.jpeg')}}" class="img-fluid" alt="">
+              {{-- <div class="portfolio-info">
+                <h4>Web 3</h4>
+                <p>Web</p>
+                <div class="portfolio-links">
+                  <a href="assets/img/portfolio/portfolio-2.jpg" data-gallery="portfolioGallery" class="portfokio-lightbox" title="Web 3"><i class="bi bi-plus"></i></a>
+                  <a href="portfolio-details.html" title="More Details"><i class="bi bi-link"></i></a>
+                </div> 
+              </div>--}}
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-clinic">
+            <div class="portfolio-wrap">
+              <img src="{{asset('assets/img/portfolio/portfolio-19.jpeg')}}" class="img-fluid" alt="">
+              {{-- <div class="portfolio-info">
+                <h4>Web 3</h4>
+                <p>Web</p>
+                <div class="portfolio-links">
+                  <a href="assets/img/portfolio/portfolio-2.jpg" data-gallery="portfolioGallery" class="portfokio-lightbox" title="Web 3"><i class="bi bi-plus"></i></a>
+                  <a href="portfolio-details.html" title="More Details"><i class="bi bi-link"></i></a>
+                </div> 
+              </div>--}}
             </div>
           </div>
 
@@ -794,7 +890,7 @@ I would recommend the Ubud Health Care Centre to anyone looking for medical atte
 
         <header class="section-header">
           <h2>Contact</h2>
-          <p>Ubud Care Teges</p>
+          <p>Ubud Care Clinic Teges</p>
           
         </header>
 
@@ -842,10 +938,10 @@ I would recommend the Ubud Health Care Centre to anyone looking for medical atte
             </div>
           </div>
         </div>
-
+        <br><br>
         <header class="section-header">
           <h2>Contact</h2>
-          <p>Ubud Care Tebasaya</p>
+          <p>Ubud Care Clinic Tebasaya</p>
           
         </header>
         <div class="row gy-4">
@@ -945,50 +1041,52 @@ I would recommend the Ubud Health Care Centre to anyone looking for medical atte
     <div class="footer-top">
       <div class="container">
         <div class="row gy-4">
-          <div class="col-lg-5 col-md-12 footer-info">
+          <div class="col-lg-6 col-md-12 footer-info">
             <a href="index.html" class="logo d-flex align-items-center">
               <img src="assets/img/logo.png" alt="">
-              <span>Ubud Care</span>
+              <span>Ubud Care Clinic</span>
             </a>
-            <p>Ubud Care is a group of medical professionals dedicated to provide you a warm and personalised health care like no other.</p>
+            <p>Ubud Care Clinic is a group of medical professionals dedicated to provide you a warm and personalised health care like no other.</p>
             <div class="social-links mt-3">
               {{-- <a href="#" class="twitter"><i class="bi bi-twitter"></i></a> --}}
-              <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
-              <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
+              <a href="https://www.facebook.com/ubudcare/" class="facebook"><i class="bi bi-facebook"></i></a>
+              <a href="https://www.instagram.com/ubudcare/?hl=en" class="instagram"><i class="bi bi-instagram"></i></a>
               {{-- <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></a> --}}
             </div>
           </div>
 
-          <div class="col-lg-2 col-6 footer-links">
+          {{-- <div class="col-lg-2 col-6 footer-links">
             <h4>Useful Links</h4>
             <ul>
-              <li><i class="bi bi-chevron-right"></i> <a href="#">Home</a></li>
-              <li><i class="bi bi-chevron-right"></i> <a href="#">About us</a></li>
-              <li><i class="bi bi-chevron-right"></i> <a href="#">Services</a></li>
-              <li><i class="bi bi-chevron-right"></i> <a href="#">Terms of service</a></li>
-              <li><i class="bi bi-chevron-right"></i> <a href="#">Privacy policy</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="#hero">Home</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="#about">About</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="#services">Services</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="#gallery">Gallery</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="testimonials">Testimonials</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="#contact">Contact</a></li>
             </ul>
-          </div>
+          </div> --}}
 
-          <div class="col-lg-2 col-6 footer-links">
-            <h4>Our Services</h4>
+          <div class="col-lg-3 col-6-md 12 footer-links">
+            <h4>Useful Links</h4>
             <ul>
-              <li><i class="bi bi-chevron-right"></i> <a href="#">Data</a></li>
-              <li><i class="bi bi-chevron-right"></i> <a href="#">Data</a></li>
-              <li><i class="bi bi-chevron-right"></i> <a href="#">Data</a></li>
-              <li><i class="bi bi-chevron-right"></i> <a href="#">Data</a></li>
-              <li><i class="bi bi-chevron-right"></i> <a href="#">Data</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="#hero">Home</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="#about">About</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="#services">Services</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="#gallery">Gallery</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="testimonials">Testimonials</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="#contact">Contact</a></li>
             </ul>
           </div>
 
           <div class="col-lg-3 col-md-12 footer-contact text-center text-md-start">
             <h4>Contact Us</h4>
             <p>
-              Data <br>
-              Data<br>
-              Data <br><br>
-              <strong>Phone:</strong>Data<br>
-              <strong>Email:</strong>Data<br>
+              Ubud Care Clinic<br>
+              +62-821-8888-CARE (2273) <br>
+              +62-811-3977-911 <br>
+              info@ubudcare.com <br>
+              contact@ubudcare.com
             </p>
 
           </div>
