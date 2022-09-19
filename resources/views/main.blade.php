@@ -841,19 +841,22 @@ I would recommend the Ubud Health Care Centre to anyone looking for medical atte
               </div>
             </div>
           </div>
-          <br>
-          <header class="section-header">
-            <h2>Contact</h2>
-            <p>Ubud Care Tebasaya</p>
-            
-          </header>
+        </div>
 
-          <div class="col-lg-12">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3945.8519240773962!2d115.26565261478291!3d-8.513754593879314!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd23d6e438ba6c5%3A0x8fcd87d2ef4bac85!2sUbudCare!5e0!3m2!1sen!2sid!4v1663570025678!5m2!1sen!2sid" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <header class="section-header">
+          <h2>Contact</h2>
+          <p>Ubud Care Tebasaya</p>
+          
+        </header>
+        <div class="row gy-4">
+          
+          
 
-          </div>
+            <div class="col-lg-12">
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3945.8519240773962!2d115.26565261478291!3d-8.513754593879314!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd23d6e438ba6c5%3A0x8fcd87d2ef4bac85!2sUbudCare!5e0!3m2!1sen!2sid!4v1663570025678!5m2!1sen!2sid" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 
-          <div class="row gy-4">
+            </div>
+
 
             <div class="col-lg-12">
   
@@ -949,10 +952,10 @@ I would recommend the Ubud Health Care Centre to anyone looking for medical atte
             </a>
             <p>Ubud Care is a group of medical professionals dedicated to provide you a warm and personalised health care like no other.</p>
             <div class="social-links mt-3">
-              <a href="#" class="twitter"><i class="bi bi-twitter"></i></a>
+              {{-- <a href="#" class="twitter"><i class="bi bi-twitter"></i></a> --}}
               <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
               <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
-              <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></a>
+              {{-- <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></a> --}}
             </div>
           </div>
 
