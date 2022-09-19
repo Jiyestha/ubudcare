@@ -49,7 +49,7 @@
           <li><a class="nav-link scrollto" href="#services">Services</a></li>
           <li><a class="nav-link scrollto" href="#gallery">Gallery</a></li>
           <li><a class="nav-link scrollto" href="#testimonials">Testimonials</a></li>
-          <li><a class="nav-link scrollto" href="#team">Team</a></li>
+          {{-- <li><a class="nav-link scrollto" href="#team">Team</a></li> --}}
           {{-- <li><a href="blog.html">Blog</a></li> --}}
           {{-- <li class="dropdown"><a href="#"><span>Drop Down</span> <i class="bi bi-chevron-down"></i></a>
             <ul>
@@ -166,7 +166,7 @@ Medicine is both art and science. Ubud is one of Bali’s major arts and cultura
               <p>Our team of medical specialists are always ready to assist you for a more elaborate, specific medical consultation, examination & treatment. 
                 With our simple appointment system, you will be able to communicate with a specialist in no time at all.
               </p>
-              <a href="#" class="read-more"><span>Read More</span> <i class="bi bi-arrow-right"></i></a>
+              {{-- <a href="#" class="read-more"><span>Read More</span> <i class="bi bi-arrow-right"></i></a> --}}
             </div>
           </div>
 
@@ -178,7 +178,7 @@ Medicine is both art and science. Ubud is one of Bali’s major arts and cultura
               <p>Our team of doctors & nurses are ready to provide you with a simple & accurate medical assistance right at your homestay, villa or hotel within Ubud area in less than 20 minutes (Guaranteed). Therefore, if you put your time and health as your top priorities, there’s no need to queue waiting at the clinic, just pick up the phone and call us now or drop us an email or fill the online appointment form.
 
               </p>
-              <a href="#" class="read-more"><span>Read More</span> <i class="bi bi-arrow-right"></i></a>
+              {{-- <a href="#" class="read-more"><span>Read More</span> <i class="bi bi-arrow-right"></i></a> --}}
             </div>
           </div>
 
@@ -188,7 +188,7 @@ Medicine is both art and science. Ubud is one of Bali’s major arts and cultura
               <h3>Homecare
               </h3>
               <p>Our Home Care team provide complete medical consultation, evaluation and treatment for you at your home: post hospitalization, terminal illness, elderly patient care, routine wound care, or even a personal nurse standing by at your side for a whole day. Whenever you find the hospital as too expensive and/or mainstream, we will provide the right personalised care just for you.</p>
-              <a href="#" class="read-more"><span>Read More</span> <i class="bi bi-arrow-right"></i></a>
+              {{-- <a href="#" class="read-more"><span>Read More</span> <i class="bi bi-arrow-right"></i></a> --}}
             </div>
           </div>
 
@@ -199,7 +199,7 @@ Medicine is both art and science. Ubud is one of Bali’s major arts and cultura
               <p>Our pharmacy team will cater all your prescription and over-the-counter medication needs. If you need something that we don’t readily have, you can rest assured that we will do our best to find them for you. We’ll make sure that you fully understand your medications. And unlike others, our medications won’t cost you an arm and a leg.
 
               </p>
-              <a href="#" class="read-more"><span>Read More</span> <i class="bi bi-arrow-right"></i></a>
+              {{-- <a href="#" class="read-more"><span>Read More</span> <i class="bi bi-arrow-right"></i></a> --}}
             </div>
           </div>
 
@@ -211,7 +211,7 @@ Medicine is both art and science. Ubud is one of Bali’s major arts and cultura
               <p>Do not wait until a wound gets infected. We provide a range of simple to extensive medical assistance in dealing with wounds using sterile equipment and procedures.
 
               </p>
-              <a href="#" class="read-more"><span>Read More</span> <i class="bi bi-arrow-right"></i></a>
+              {{-- <a href="#" class="read-more"><span>Read More</span> <i class="bi bi-arrow-right"></i></a> --}}
             </div>
           </div>
 
@@ -222,7 +222,7 @@ Medicine is both art and science. Ubud is one of Bali’s major arts and cultura
               <p>We provide a wide variety of vaccinations. Both for emergency or urgent purposes (Rabies, Tetanus) or new and booster vaccinations (Hepatitis, Typhoid, HPV, etc).
 
               </p>
-              <a href="#" class="read-more"><span>Read More</span> <i class="bi bi-arrow-right"></i></a>
+              {{-- <a href="#" class="read-more"><span>Read More</span> <i class="bi bi-arrow-right"></i></a> --}}
             </div>
           </div>
 
@@ -233,7 +233,7 @@ Medicine is both art and science. Ubud is one of Bali’s major arts and cultura
               <p>Our medical team is backed up with a quick response laboratory check up, from a simple quick check for tropical diseases to a battery of tests for general medical check up.
 
               </p>
-              <a href="#" class="read-more"><span>Read More</span> <i class="bi bi-arrow-right"></i></a>
+              {{-- <a href="#" class="read-more"><span>Read More</span> <i class="bi bi-arrow-right"></i></a> --}}
             </div>
           </div>
 
@@ -244,7 +244,7 @@ Medicine is both art and science. Ubud is one of Bali’s major arts and cultura
               <p>Our special, one of a kind medical service in Ubud: Medical pick-up & transportation, patient escort & medical liaison services to solve all your medical/health related problems. Let us be your personal concierge today.
 
               </p>
-              <a href="#" class="read-more"><span>Read More</span> <i class="bi bi-arrow-right"></i></a>
+              {{-- <a href="#" class="read-more"><span>Read More</span> <i class="bi bi-arrow-right"></i></a> --}}
             </div>
           </div>
 
@@ -256,7 +256,7 @@ Medicine is both art and science. Ubud is one of Bali’s major arts and cultura
 
     
 
-    <!-- ======= F.A.Q Section ======= -->
+    {{-- <!-- ======= F.A.Q Section ======= -->
     <section id="faq" class="faq">
 
       <div class="container" data-aos="fade-up">
@@ -363,7 +363,7 @@ Medicine is both art and science. Ubud is one of Bali’s major arts and cultura
 
       </div>
 
-    </section><!-- End F.A.Q Section -->
+    </section><!-- End F.A.Q Section --> --}}
 
     <!-- ======= Gallery Section ======= -->
     <section id="gallery" class="portfolio">
@@ -379,7 +379,7 @@ Medicine is both art and science. Ubud is one of Bali’s major arts and cultura
           <div class="col-lg-12 d-flex justify-content-center">
             <ul id="portfolio-flters">
               <li data-filter="*" class="filter-active">All</li>
-              <li data-filter=".filter-app">App</li>
+              <li data-filter=".filter-clinic">Clinic</li>
               <li data-filter=".filter-card">Card</li>
               <li data-filter=".filter-web">Web</li>
             </ul>
@@ -388,17 +388,16 @@ Medicine is both art and science. Ubud is one of Bali’s major arts and cultura
 
         <div class="row gy-4 portfolio-container" data-aos="fade-up" data-aos-delay="200">
 
-          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+          <div class="col-lg-4 col-md-6 portfolio-item filter-clinic">
             <div class="portfolio-wrap">
               <img src="assets/img/portfolio/portfolio-1.jpg" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <h4>App 1</h4>
-                <p>App</p>
+              {{-- <div class="portfolio-info">
+                
                 <div class="portfolio-links">
                   <a href="assets/img/portfolio/portfolio-1.jpg" data-gallery="portfolioGallery" class="portfokio-lightbox" title="App 1"><i class="bi bi-plus"></i></a>
                   <a href="portfolio-details.html" title="More Details"><i class="bi bi-link"></i></a>
                 </div>
-              </div>
+              </div> --}}
             </div>
           </div>
 
@@ -535,83 +534,153 @@ Medicine is both art and science. Ubud is one of Bali’s major arts and cultura
 
             <div class="swiper-slide">
               <div class="testimonial-item">
+                  <h3>L. Younger</h3>
+                  <h4>Australia</h4>
                 <div class="stars">
                   <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
                 </div>
                 <p>
-                  Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus. Accusantium quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper.
+                  Great Clinic in Ubud! My husband had a medical emergency while we were in Ubud.
+
+This medical clinic picked us up from our room, took us to the facility (on a Sunday), treated my husband, showed us videos of his condition, recommended a specialist, wrote a prescription, drove us to the pharmacy, drove us back to our room, sent us documents for our insurance and flight cancellations and followed up with us by phone and email. ALL Of these services for $50 US dollars. I can’t say enough about this health center. Great professional, compassionate medical care. The pick up and drop off are free. You can also have the doctor come to your room for a very reasonable fee.
+
+Thank You, and next time in Ubud we will choose you for any medical needs.
                 </p>
-                <div class="profile mt-auto">
-                  <img src="assets/img/testimonials/testimonials-1.jpg" class="testimonial-img" alt="">
-                  <h3>Saul Goodman</h3>
-                  <h4>Ceo &amp; Founder</h4>
+                
+              </div>
+            </div><!-- End testimonial item --> 
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                  <h3>S.L. Gikovate</h3>
+                  <h4>Brazil</h4>
+                <div class="stars">
+                  <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
                 </div>
+                <p>
+                  The Ubud Health Care Clinic is the absolute BEST!!!!! I can’t tell you how truly wonderful the doctors and staff are at this facility. I was very nervous to visit a local Bali clinic this month while on vacation but I knew I needed medical help as I was very sick with a virus. I would put these 2 wonderful doctors up against any Western Doctor I know. They were very kind, knowledgeable, informative, compassionate, and I felt very safe in their hands! So if you are in the same potion as I was and you are in the Ubud area please don’t hesitate to visit them for any reason. I promise you will have a great experience! Thank you again Ubud Health Care!
+                </p>
+                
+              </div>
+            </div><!-- End testimonial item --> 
+
+            
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                  <h3>M. Bangay</h3>
+                  <h4>Canada</h4>
+                <div class="stars">
+                  <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                </div>
+                <p>
+                  I feel so incredibly lucky to have found this clinic online while I was going through a bit of a medical scare in Ubud. The doctor’s and staff at the clinic took such good care of me and made me feel completely at ease while I was so far from home.
+Staff picked me up at my hotel, I saw a doctor immediately, they helped me fill my prescriptions and drove me back to my hotel. They even drove to Denpasar to pick up a prescription that wasn’t available in Ubud and dropped it off at my hotel for me.
+I would recommend the Ubud Health Care Centre to anyone looking for medical attention in Ubud.
+                </p>
+                
+              </div>
+            </div><!-- End testimonial item --> 
+            
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                  <h3>C. Williams</h3>
+                  <h4>Australia</h4>
+                <div class="stars">
+                  <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                </div>
+                <p>
+                  Looked after our friend with the most professional care. Visited the villa and stayed for hours. Minimal charge. And our friend is better now as a result of care. She was so sick she couldn’t get out of bed but now much better. Terimakasih. Recommend to everyone. Better care than in Australia!
+                </p>
+                
+              </div>
+            </div><!-- End testimonial item --> 
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                  <h3>D. Willemsen</h3>
+                  <h4>Dutch</h4>
+                <div class="stars">
+                  <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                </div>
+                <p>
+                  Amazing clinic. Had to come in a couple of times after a little bike accident, always really friendly people at the desk, every doctor I had was always super nice and took their time with you. Super clean, super sweet people; I prefer this place to my own doctor back home! Highly recommend.
+                </p>
+                
+              </div>
+            </div><!-- End testimonial item --> 
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                  <h3>P. Evans</h3>
+                  <h4>UK</h4>
+                <div class="stars">
+                  <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                </div>
+                <p>
+                  All of the staff, without exception, were outstanding. Thanks.
+                </p>
+                
+              </div>
+            </div><!-- End testimonial item --> 
+
+            
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                  <h3>J. Batterbee</h3>
+                  <h4>Australia</h4>
+                <div class="stars">
+                  <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                </div>
+                <p>
+                  Friendly efficiency of the staff. Genuine knowledge and professionalism of the doctors is why I chose this health facility. I live in Bali and know it isn’t always easy to find medical staff that you are comfortable with!
+                </p>
+                
               </div>
             </div><!-- End testimonial item -->
 
             <div class="swiper-slide">
               <div class="testimonial-item">
+                  <h3>H. Armin</h3>
+                  <h4>German</h4>
                 <div class="stars">
                   <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
                 </div>
                 <p>
-                  Export tempor illum tamen malis malis eram quae irure esse labore quem cillum quid cillum eram malis quorum velit fore eram velit sunt aliqua noster fugiat irure amet legam anim culpa.
+                  I come to Bali since 1993 and Ubud Health Care is the best Clinic with the best Doctor and medical stuff I ever went all this time! Thank you very much for the best service!
                 </p>
-                <div class="profile mt-auto">
-                  <img src="assets/img/testimonials/testimonials-2.jpg" class="testimonial-img" alt="">
-                  <h3>Sara Wilsson</h3>
-                  <h4>Designer</h4>
-                </div>
+                
               </div>
-            </div><!-- End testimonial item -->
+            </div><!-- End testimonial item --> 
 
             <div class="swiper-slide">
               <div class="testimonial-item">
+                  <h3>D. Ridha</h3>
+                  <h4>USA</h4>
                 <div class="stars">
                   <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
                 </div>
                 <p>
-                  Enim nisi quem export duis labore cillum quae magna enim sint quorum nulla quem veniam duis minim tempor labore quem eram duis noster aute amet eram fore quis sint minim.
+                  Best doctors in town! Thorough, caring, honest. Super fast and always available to reach. Honestly, this is the only place to go. Thank you for your professional and personal care!
                 </p>
-                <div class="profile mt-auto">
-                  <img src="assets/img/testimonials/testimonials-3.jpg" class="testimonial-img" alt="">
-                  <h3>Jena Karlis</h3>
-                  <h4>Store Owner</h4>
-                </div>
+                
               </div>
-            </div><!-- End testimonial item -->
+            </div><!-- End testimonial item --> 
 
             <div class="swiper-slide">
               <div class="testimonial-item">
+                  <h3>B. Lamb</h3>
+                  <h4>Australia</h4>
                 <div class="stars">
                   <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
                 </div>
                 <p>
-                  Fugiat enim eram quae cillum dolore dolor amet nulla culpa multos export minim fugiat minim velit minim dolor enim duis veniam ipsum anim magna sunt elit fore quem dolore labore illum veniam.
+                  Fantastic service. I was a bit nervous at first but Ubud Care lived up to the other reviews. Quick, easy and painless. Better than most clinics back in Australia. I was also picked up and dropped off from my hotel free of charge. Now i can continue on with my holiday. Highly recommend!
                 </p>
-                <div class="profile mt-auto">
-                  <img src="assets/img/testimonials/testimonials-4.jpg" class="testimonial-img" alt="">
-                  <h3>Matt Brandon</h3>
-                  <h4>Freelancer</h4>
-                </div>
+                
               </div>
-            </div><!-- End testimonial item -->
-
-            <div class="swiper-slide">
-              <div class="testimonial-item">
-                <div class="stars">
-                  <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
-                </div>
-                <p>
-                  Quis quorum aliqua sint quem legam fore sunt eram irure aliqua veniam tempor noster veniam enim culpa labore duis sunt culpa nulla illum cillum fugiat legam esse veniam culpa fore nisi cillum quid.
-                </p>
-                <div class="profile mt-auto">
-                  <img src="assets/img/testimonials/testimonials-5.jpg" class="testimonial-img" alt="">
-                  <h3>John Larson</h3>
-                  <h4>Entrepreneur</h4>
-                </div>
-              </div>
-            </div><!-- End testimonial item -->
+            </div><!-- End testimonial item --> 
 
           </div>
           <div class="swiper-pagination"></div>
@@ -621,7 +690,7 @@ Medicine is both art and science. Ubud is one of Bali’s major arts and cultura
 
     </section><!-- End Testimonials Section -->
 
-    <!-- ======= Team Section ======= -->
+    {{-- <!-- ======= Team Section ======= -->
     <section id="team" class="team">
 
       <div class="container" data-aos="fade-up">
@@ -713,7 +782,7 @@ Medicine is both art and science. Ubud is one of Bali’s major arts and cultura
 
       </div>
 
-    </section><!-- End Team Section -->
+    </section><!-- End Team Section --> --}}
 
     
 
@@ -725,7 +794,7 @@ Medicine is both art and science. Ubud is one of Bali’s major arts and cultura
 
         <header class="section-header">
           <h2>Contact</h2>
-          <p>Contact Us</p>
+          <p>Ubud Care Teges</p>
           
         </header>
 
@@ -733,13 +802,16 @@ Medicine is both art and science. Ubud is one of Bali’s major arts and cultura
         <div class="row gy-4">
 
           <div class="col-lg-12">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d31565.97337144204!2d115.269393!3d-8.523958!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xc07326ea6f4b0acb!2sUbudCare%20Clinic%20(24%20Hours)!5e0!3m2!1sen!2sid!4v1663569303658!5m2!1sen!2sid" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </div>
 
+          <div class="col-lg-12">
             <div class="row gy-4">
               <div class="col-md-3">
                 <div class="info-box">
                   <i class="bi bi-geo-alt"></i>
-                  <h3>Address </h3>
-                  <p> Jl. Sukma No. 37, Br. Tebasaya,
+                  <h3>Address</h3>
+                  <p> Jl. Raya Teges No.8,
                     Peliatan, Ubud, Gianyar, Bali 80571
                     <br>
                     </p>
@@ -749,65 +821,78 @@ Medicine is both art and science. Ubud is one of Bali’s major arts and cultura
                 <div class="info-box">
                   <i class="bi bi-telephone"></i>
                   <h3>Call Us</h3>
-                  <p>+62-821-8888-CARE (2273) <br> &nbsp; </p>
+                  <p>+62-811-3977-911 <br> &nbsp; </p> 
                 </div>
               </div>
               <div class="col-md-3">
                 <div class="info-box">
                   <i class="bi bi-envelope"></i>
                   <h3>Email Us</h3>
-                  <p>info@ubudcare.com <br>&nbsp;</p>
+                  <p>contact@ubudcare.com<br> &nbsp;
+                  </p>
                 </div>
               </div>
               <div class="col-md-3">
                 <div class="info-box">
                   <i class="bi bi-clock"></i>
                   <h3>Open Hours</h3>
-                  <p>Monday - Sunday<br>07:00AM - 10:00PM</p>
+                  <p>Monday - Sunday<br>24 Hours</p>
                 </div>
               </div>
             </div>
-
+          </div>
+          <br>
+          <header class="section-header">
+            <h2>Contact</h2>
+            <p>Ubud Care Tebasaya</p>
             
+          </header>
+
+          <div class="col-lg-12">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3945.8519240773962!2d115.26565261478291!3d-8.513754593879314!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd23d6e438ba6c5%3A0x8fcd87d2ef4bac85!2sUbudCare!5e0!3m2!1sen!2sid!4v1663570025678!5m2!1sen!2sid" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 
           </div>
-
 
           <div class="row gy-4">
-            <div class="col-md-3">
-              <div class="info-box">
-                <i class="bi bi-geo-alt"></i>
-                <h3>Address</h3>
-                <p> Jl. Raya Teges No.8,
-                  Peliatan, Ubud, Gianyar, Bali 80571
-                  <br>
-                  </p>
-              </div>
-            </div>
-            <div class="col-md-3">
-              <div class="info-box">
-                <i class="bi bi-telephone"></i>
-                <h3>Call Us</h3>
-                <p>+62-811-3977-911 <br> &nbsp; </p> 
-              </div>
-            </div>
-            <div class="col-md-3">
-              <div class="info-box">
-                <i class="bi bi-envelope"></i>
-                <h3>Email Us</h3>
-                <p>contact@ubudcare.com<br> &nbsp;
-                </p>
-              </div>
-            </div>
-            <div class="col-md-3">
-              <div class="info-box">
-                <i class="bi bi-clock"></i>
-                <h3>Open Hours</h3>
-                <p>Monday - Sunday<br>24 Hours</p>
-              </div>
-            </div>
-          </div>
 
+            <div class="col-lg-12">
+  
+              <div class="row gy-4">
+                <div class="col-md-3">
+                  <div class="info-box">
+                    <i class="bi bi-geo-alt"></i>
+                    <h3>Address </h3>
+                    <p> Jl. Sukma No. 37, Br. Tebasaya,
+                      Peliatan, Ubud, Gianyar, Bali 80571
+                      <br>
+                      </p>
+                  </div>
+                </div>
+                <div class="col-md-3">
+                  <div class="info-box">
+                    <i class="bi bi-telephone"></i>
+                    <h3>Call Us</h3>
+                    <p>+62-821-8888-CARE (2273) <br> &nbsp; </p>
+                  </div>
+                </div>
+                <div class="col-md-3">
+                  <div class="info-box">
+                    <i class="bi bi-envelope"></i>
+                    <h3>Email Us</h3>
+                    <p>info@ubudcare.com <br>&nbsp;</p>
+                  </div>
+                </div>
+                <div class="col-md-3">
+                  <div class="info-box">
+                    <i class="bi bi-clock"></i>
+                    <h3>Open Hours</h3>
+                    <p>Monday - Sunday<br>07:00AM - 10:00PM</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+  
+          
           {{-- <div class="col-lg-6">
             <form action="forms/contact.php" method="post" class="php-email-form">
               <div class="row gy-4">
@@ -862,7 +947,7 @@ Medicine is both art and science. Ubud is one of Bali’s major arts and cultura
               <img src="assets/img/logo.png" alt="">
               <span>Ubud Care</span>
             </a>
-            <p>Cras fermentum odio eu feugiat lide par naso tierra. Justo eget nada terra videa magna derita valies darta donna mare fermentum iaculis eu non diam phasellus.</p>
+            <p>Ubud Care is a group of medical professionals dedicated to provide you a warm and personalised health care like no other.</p>
             <div class="social-links mt-3">
               <a href="#" class="twitter"><i class="bi bi-twitter"></i></a>
               <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
