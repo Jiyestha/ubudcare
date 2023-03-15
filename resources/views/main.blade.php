@@ -5,7 +5,7 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title>Ubud Health Care Clinic</title>
+  <title>UbudCare Clinic</title>
   <meta content="" name="description">
 
   <meta content="" name="keywords">
@@ -48,7 +48,7 @@
 
       <a href="index.html" class="logo d-flex align-items-center">
         <img src="{{asset('assets/img/logo.png')}}" alt="">
-        <span>Ubud Care Clinic</span>
+        <span>UbudCare</span>
       </a>
 
       <nav id="navbar" class="navbar">
@@ -92,7 +92,7 @@
     <div class="container">
       <div class="row">
         <div class="col-lg-6 d-flex flex-column justify-content-center">
-          <h1 data-aos="fade-up">Welcome to <br> Ubud Health Care</h1>
+          <h1 data-aos="fade-up">Welcome to UbudCare</h1>
           <h2 data-aos="fade-up" data-aos-delay="400"> Located at the heart of scenic and tranquil Ubud area. <br>
             We are available for in-office (clinic) consultations and on-site visits. </h2>
           <div data-aos="fade-up" data-aos-delay="600">
@@ -105,7 +105,8 @@
           </div>
         </div>
         <div class="col-lg-6 hero-img" data-aos="zoom-out" data-aos-delay="200">
-          <img src="{{asset('assets/img/hero-img.jpg')}}" class="img-fluid" alt="">
+          <img src="{{asset('assets/img/portfolio/portfolio-3.jpg')}}" class="img-fluid" alt="">
+          {{-- <img src="{{asset('assets/img/hero-img.jpg')}}" class="img-fluid" alt=""> --}}
         </div>
       </div>
     </div>
@@ -122,7 +123,7 @@
           <div class="col-lg-4 d-flex flex-column justify-content-center" data-aos="fade-up" data-aos-delay="200">
             <div class="content">
               <h3>Who We Are</h3>
-              <h2>Ubud Health Care Clinic is a group of medical professionals dedicated to provide you a warm and personalised health care like no other.</h2>
+              <h2>UbudCare is a group of medical professionals dedicated to provide you a warm and personalised health care like no other.</h2>
               <p>
                 “The Art of Caring”
 Medicine is both art and science. Ubud is one of Bali’s major arts and cultural centres. We believe that there’s also an art in caring for the unwell. And we use that special art to deliver the best science of healthcare to you.
@@ -425,19 +426,12 @@ Medicine is both art and science. Ubud is one of Bali’s major arts and cultura
             </div>
           </div>
 
-          <div class="col-lg-4 col-md-6 portfolio-item filter-clinic">
+          {{-- <div class="col-lg-4 col-md-6 portfolio-item filter-clinic">
             <div class="portfolio-wrap">
               <img src="{{asset('assets/img/portfolio/portfolio-3.jpg')}}" class="img-fluid" alt="">
-              {{-- <div class="portfolio-info">
-                <h4>Web 3</h4>
-                <p>Web</p>
-                <div class="portfolio-links">
-                  <a href="assets/img/portfolio/portfolio-2.jpg" data-gallery="portfolioGallery" class="portfokio-lightbox" title="Web 3"><i class="bi bi-plus"></i></a>
-                  <a href="portfolio-details.html" title="More Details"><i class="bi bi-link"></i></a>
-                </div> 
-              </div>--}}
+              
             </div>
-          </div>
+          </div> --}}
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-clinic">
             <div class="portfolio-wrap">
@@ -511,33 +505,19 @@ Medicine is both art and science. Ubud is one of Bali’s major arts and cultura
             </div>
           </div>
 
-          <div class="col-lg-4 col-md-6 portfolio-item filter-clinic">
+          {{-- <div class="col-lg-4 col-md-6 portfolio-item filter-clinic">
             <div class="portfolio-wrap">
               <img src="{{asset('assets/img/portfolio/portfolio-10.jpg')}}" class="img-fluid" alt="">
-              {{-- <div class="portfolio-info">
-                <h4>Web 3</h4>
-                <p>Web</p>
-                <div class="portfolio-links">
-                  <a href="assets/img/portfolio/portfolio-2.jpg" data-gallery="portfolioGallery" class="portfokio-lightbox" title="Web 3"><i class="bi bi-plus"></i></a>
-                  <a href="portfolio-details.html" title="More Details"><i class="bi bi-link"></i></a>
-                </div> 
-              </div>--}}
+              
             </div>
           </div>
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-clinic">
             <div class="portfolio-wrap">
               <img src="{{asset('assets/img/portfolio/portfolio-12.jpg')}}" class="img-fluid" alt="">
-              {{-- <div class="portfolio-info">
-                <h4>Web 3</h4>
-                <p>Web</p>
-                <div class="portfolio-links">
-                  <a href="assets/img/portfolio/portfolio-2.jpg" data-gallery="portfolioGallery" class="portfokio-lightbox" title="Web 3"><i class="bi bi-plus"></i></a>
-                  <a href="portfolio-details.html" title="More Details"><i class="bi bi-link"></i></a>
-                </div> 
-              </div>--}}
+              
             </div>
-          </div>
+          </div> --}}
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-clinic">
             <div class="portfolio-wrap">
@@ -654,7 +634,7 @@ Thank You, and next time in Ubud we will choose you for any medical needs.
                   <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
                 </div>
                 <p>
-                  The Ubud Health Care Clinic is the absolute BEST!!!!! I can’t tell you how truly wonderful the doctors and staff are at this facility. I was very nervous to visit a local Bali clinic this month while on vacation but I knew I needed medical help as I was very sick with a virus. I would put these 2 wonderful doctors up against any Western Doctor I know. They were very kind, knowledgeable, informative, compassionate, and I felt very safe in their hands! So if you are in the same potion as I was and you are in the Ubud area please don’t hesitate to visit them for any reason. I promise you will have a great experience! Thank you again Ubud Health Care!
+                  The UbudCare Clinic is the absolute BEST!!!!! I can’t tell you how truly wonderful the doctors and staff are at this facility. I was very nervous to visit a local Bali clinic this month while on vacation but I knew I needed medical help as I was very sick with a virus. I would put these 2 wonderful doctors up against any Western Doctor I know. They were very kind, knowledgeable, informative, compassionate, and I felt very safe in their hands! So if you are in the same potion as I was and you are in the Ubud area please don’t hesitate to visit them for any reason. I promise you will have a great experience! Thank you again Ubud Health Care!
                 </p>
                 
               </div>
@@ -672,7 +652,7 @@ Thank You, and next time in Ubud we will choose you for any medical needs.
                 <p>
                   I feel so incredibly lucky to have found this clinic online while I was going through a bit of a medical scare in Ubud. The doctor’s and staff at the clinic took such good care of me and made me feel completely at ease while I was so far from home.
 Staff picked me up at my hotel, I saw a doctor immediately, they helped me fill my prescriptions and drove me back to my hotel. They even drove to Denpasar to pick up a prescription that wasn’t available in Ubud and dropped it off at my hotel for me.
-I would recommend the Ubud Health Care Centre to anyone looking for medical attention in Ubud.
+I would recommend the UbudCare Centre to anyone looking for medical attention in Ubud.
                 </p>
                 
               </div>
@@ -744,7 +724,7 @@ I would recommend the Ubud Health Care Centre to anyone looking for medical atte
                   <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
                 </div>
                 <p>
-                  I come to Bali since 1993 and Ubud Health Care is the best Clinic with the best Doctor and medical stuff I ever went all this time! Thank you very much for the best service!
+                  I come to Bali since 1993 and UbudCare is the best Clinic with the best Doctor and medical stuff I ever went all this time! Thank you very much for the best service!
                 </p>
                 
               </div>
@@ -772,7 +752,7 @@ I would recommend the Ubud Health Care Centre to anyone looking for medical atte
                   <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
                 </div>
                 <p>
-                  Fantastic service. I was a bit nervous at first but Ubud Care lived up to the other reviews. Quick, easy and painless. Better than most clinics back in Australia. I was also picked up and dropped off from my hotel free of charge. Now i can continue on with my holiday. Highly recommend!
+                  Fantastic service. I was a bit nervous at first but UbudCare lived up to the other reviews. Quick, easy and painless. Better than most clinics back in Australia. I was also picked up and dropped off from my hotel free of charge. Now i can continue on with my holiday. Highly recommend!
                 </p>
                 
               </div>
@@ -890,7 +870,7 @@ I would recommend the Ubud Health Care Centre to anyone looking for medical atte
 
         <header class="section-header">
           <h2>Contact</h2>
-          <p>Ubud Care Clinic Teges</p>
+          <p>UbudCare Clinic Teges</p>
           
         </header>
 
@@ -941,7 +921,7 @@ I would recommend the Ubud Health Care Centre to anyone looking for medical atte
         <br><br>
         <header class="section-header">
           <h2>Contact</h2>
-          <p>Ubud Care Clinic Tebasaya</p>
+          <p>UbudCare Clinic Tebasaya</p>
           
         </header>
         <div class="row gy-4">
@@ -1044,9 +1024,9 @@ I would recommend the Ubud Health Care Centre to anyone looking for medical atte
           <div class="col-lg-6 col-md-12 footer-info">
             <a href="index.html" class="logo d-flex align-items-center">
               <img src="assets/img/logo.png" alt="">
-              <span>Ubud Care Clinic</span>
+              <span>UbudCare</span>
             </a>
-            <p>Ubud Care Clinic is a group of medical professionals dedicated to provide you a warm and personalised health care like no other.</p>
+            <p>UbudCare is a group of medical professionals dedicated to provide you a warm and personalised health care like no other.</p>
             <div class="social-links mt-3">
               {{-- <a href="#" class="twitter"><i class="bi bi-twitter"></i></a> --}}
               <a href="https://www.facebook.com/ubudcare/" class="facebook"><i class="bi bi-facebook"></i></a>
@@ -1082,7 +1062,7 @@ I would recommend the Ubud Health Care Centre to anyone looking for medical atte
           <div class="col-lg-3 col-md-12 footer-contact text-center text-md-start">
             <h4>Contact Us</h4>
             <p>
-              Ubud Care Clinic<br>
+              UbudCare<br>
               +62-821-8888-CARE (2273) <br>
               +62-811-3977-911 <br>
               info@ubudcare.com <br>
